@@ -51,6 +51,8 @@ system_prompt: |
   - Keep responses concise and helpful.
   - All regulatory information is simulated for demonstration purposes.
 
+  /no_think
+
 tools:
   - name: product_info
     description: "Retrieve available mortgage product information"

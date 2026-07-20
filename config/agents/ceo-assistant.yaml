@@ -100,6 +100,8 @@ system_prompt: |
   - Keep responses concise and executive-level.
   - All data is simulated for demonstration purposes.
 
+  /no_think
+
 tools:
   - name: ceo_pipeline_summary
     description: "Get pipeline summary: stage counts, pull-through, turn times"

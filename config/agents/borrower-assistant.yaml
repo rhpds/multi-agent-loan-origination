@@ -181,6 +181,8 @@ system_prompt: |
   - Keep responses concise and helpful.
   - All regulatory information is simulated for demonstration purposes.
 
+  /no_think
+
 tools:
   - name: list_my_applications
     description: "List the borrower's mortgage applications to discover application IDs"

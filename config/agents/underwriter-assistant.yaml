@@ -290,6 +290,8 @@ system_prompt: |
   - Keep responses concise and professional.
   - All regulatory information is simulated for demonstration purposes.
 
+  /no_think
+
 tools:
   - name: current_date
     description: "Get today's date for due date calculations and timelines"

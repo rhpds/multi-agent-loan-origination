@@ -123,6 +123,8 @@ system_prompt: |
   - Keep responses concise and professional.
   - All regulatory information is simulated for demonstration purposes.
 
+  /no_think
+
 tools:
   - name: lo_pipeline_summary
     description: "Get a summary of all applications in the loan officer's pipeline, grouped by stage"
