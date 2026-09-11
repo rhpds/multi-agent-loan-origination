@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -39,9 +39,9 @@ name = "aiologic"
 version = "0.16.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "sniffio", marker = "python_full_version < '3.13'" },
-    { name = "typing-extensions", marker = "python_full_version < '3.13'" },
-    { name = "wrapt", marker = "python_full_version < '3.13'" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+    { name = "wrapt" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a8/13/50b91a3ea6b030d280d2654be97c48b6ed81753a50286ee43c646ba36d3c/aiologic-0.16.0.tar.gz", hash = "sha256:c267ccbd3ff417ec93e78d28d4d577ccca115d5797cdbd16785a551d9658858f", size = 225952, upload-time = "2025-11-27T23:48:41.195Z" }
 wheels = [
@@ -696,8 +696,8 @@ name = "culsans"
 version = "0.11.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "aiologic", marker = "python_full_version < '3.13'" },
-    { name = "typing-extensions", marker = "python_full_version < '3.13'" },
+    { name = "aiologic" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/d9/e3/49afa1bc180e0d28008ec6bcdf82a4072d1c7a41032b5b759b60814ca4b0/culsans-0.11.0.tar.gz", hash = "sha256:0b43d0d05dce6106293d114c86e3fb4bfc63088cfe8ff08ed3fe36891447fe33", size = 107546, upload-time = "2025-12-31T23:15:38.196Z" }
 wheels = [
@@ -4015,7 +4015,7 @@ wheels = [
 
 [[package]]
 name = "sqladmin"
-version = "0.22.0"
+version = "0.27.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
@@ -4024,9 +4024,9 @@ dependencies = [
     { name = "starlette" },
     { name = "wtforms" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2c/ac/526bb3ff2dd94fbf8442bccb49ef40aa360045add19d4fbffcb43995e67a/sqladmin-0.22.0.tar.gz", hash = "sha256:4ea904d97e4d030edb68fb0681330b4d963f422442a64bee487fdc46119b3729", size = 1429937, upload-time = "2025-11-24T12:52:59.285Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f2/00/28942e9c35c7126772aed500bcdbc1de0ec30601a5145f460e3c57477395/sqladmin-0.27.1.tar.gz", hash = "sha256:f3a20a1b2b991754b82bf1973131690c6eb48c94a191423fb886497355a9fcd9", size = 1442487, upload-time = "2026-06-05T09:06:44.271Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f2/b4/ab78c7d7b13bd3f90d6d8a106c5ad12bf7a738f89eb0241b24ad8efe5d1e/sqladmin-0.22.0-py3-none-any.whl", hash = "sha256:f2fb11165a70601a97f71956104b47da2c432db49b0d7966dc65e9e6343887d3", size = 1445514, upload-time = "2025-11-24T12:53:00.511Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/b9/eab9ff2d79defbd2bcdd80c68fabf57fc9b7a77af100a712d6029e6a9fe7/sqladmin-0.27.1-py3-none-any.whl", hash = "sha256:2cacdaf1b5457226c46d94e212be651c2c85d01c505e3520ddc1768689e496e1", size = 1459680, upload-time = "2026-06-05T09:06:42.548Z" },
 ]
 
 [[package]]
